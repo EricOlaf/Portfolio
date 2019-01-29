@@ -1,0 +1,38 @@
+.techAll {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: stretch;
+}
+
+.techSingle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  background-color: rgb(145, 145, 145);
+  margin: 20px;
+}
+
+.techImage {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+}
+.reactNative {
+  border-radius: 50%;
+  object-fit: cover;
+}
+.redux {
+  object-fit: contain;
+}
+.devMtnPic {
+  height: 90px;
+  margin: 20px;
+  object-fit: contain;
+}

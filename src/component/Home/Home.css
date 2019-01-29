@@ -1,0 +1,33 @@
+.allSkills {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: stretch;
+}
+
+.indSkill {
+  display: flex;
+  flex-direction: column;
+  width: 12em;
+  margin: 2em;
+}
+
+.skillPic {
+  width: 5em;
+  height: 5em;
+  align-self: center;
+}
+
+.allSites {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 5em;
+}
+.site {
+  border: solid;
+  border-color: rgb(30, 30, 30);
+  height: 20em;
+  width: 15em;
+}

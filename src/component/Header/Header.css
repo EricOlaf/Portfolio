@@ -1,0 +1,21 @@
+.headerAll {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 80vh;
+}
+
+.headerPic {
+  position: relative;
+  z-index: 0;
+  width: 100%;
+  opacity: 0.5;
+}
+.headerText {
+  position: absolute;
+  z-index: 1;
+  margin-top: 40vh;
+}
+
+.headerTitle {
+}

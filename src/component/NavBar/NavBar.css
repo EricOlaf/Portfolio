@@ -1,0 +1,32 @@
+.navbarAll {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: fixed;
+  z-index: 10;
+  width: 100vw;
+  background: rgba(0, 0, 0, 0.6);
+}
+.navName {
+  color: ghostwhite;
+  margin: 1em;
+}
+.navLinks {
+  padding-top: 1em;
+}
+.link {
+  text-decoration: none;
+  color: ghostwhite;
+  padding: 0.5em;
+  margin: 0.5em;
+}
+
+.link:hover {
+  border: solid;
+  border-width: 1px;
+  border-color: ghostwhite;
+}
+.link.active {
+  background-color: ghostwhite;
+  color: rgb(30, 30, 30);
+}
