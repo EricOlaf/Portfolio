@@ -21,10 +21,13 @@
 }
 
 .allSites {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  margin-bottom: 5em;
+  margin: auto;
+  background-color: rgb(29, 29, 29);
+  width: 90vw;
 }
 .site {
   display: flex;
@@ -32,17 +35,26 @@
   position: relative;
   align-items: center;
   height: 50em;
-  width: 100vw;
+  width: 80vw;
 }
 .sitePic {
   position: relative;
   object-fit: contain;
   height: 40em;
-  width: 40em;
+  width: 30em;
+  min-width: 30em;
+  margin: 5em;
+  align-items: center;
 }
 .siteExp {
-  height: 40em;
+  display: flex;
+  height: 10em;
+  min-width: 20em;
   width: 40em;
+  text-align: center;
   align-items: center;
   background-color: bisque;
+  padding: 10px;
+  margin: 5em;
+  font-size: 20px;
 }
