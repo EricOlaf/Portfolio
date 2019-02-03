@@ -102,14 +102,13 @@ class Home extends Component {
               alt=""
             />
             <div className="siteExp">
-              Appy is Social Media site designed to uplift and encourage users.
+              Appy is social sedia app designed in React Native to uplift and encourage users.
             </div>
           </div>
           <div className="site">
             <div className="siteExp">
               <div>
-                RawTrails, a site designed for users to find and scheule perfect
-                outdoor trip.
+                RawTrails, a website designed in React for adventure seekers to find and scheule the perfect guided outdoor trip.
               </div>
             </div>
             <img
