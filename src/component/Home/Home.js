@@ -6,7 +6,7 @@ class Home extends Component {
   render() {
     return (
       <div className="homeAll">
-        <h1>Skills</h1>
+        {/* <h1>Skills</h1>
         <div className="allSkills">
           <div className="indSkill">
             <img
@@ -28,7 +28,7 @@ class Home extends Component {
             />
             <div>Intentional</div>
             <div>explanation</div>
-          </div> */}
+          </div> 
           <div className="indSkill">
             <img
               className="skillPic"
@@ -92,23 +92,15 @@ class Home extends Component {
               around people that push me outside of my comfort zone.
             </div>
           </div>
-        </div>
-        <h1>Recent Work</h1>
+        </div> */}
+
         <div className="allSites">
-          <div className="site">
-            <img
-              className="sitePic"
-              src="https://user-images.githubusercontent.com/41210242/47841519-dba2c080-dd87-11e8-9eaa-956e9b776a3e.png"
-              alt=""
-            />
-            <div className="siteExp">
-              Appy is social sedia app designed in React Native to uplift and encourage users.
-            </div>
-          </div>
+          <h1>Recent Work</h1>
           <div className="site">
             <div className="siteExp">
               <div>
-                RawTrails, a website designed in React for adventure seekers to find and scheule the perfect guided outdoor trip.
+                RawTrails, a website designed in React for adventure seekers to
+                find and scheule the perfect guided outdoor trip.
               </div>
             </div>
             <img
@@ -116,6 +108,17 @@ class Home extends Component {
               src="https://res.cloudinary.com/rawtrails801/image/upload/v1548807359/Screen_Shot_2019-01-29_at_6.09.41_PM.png"
               alt=""
             />
+          </div>
+          <div className="site">
+            <img
+              className="sitePic"
+              src="https://user-images.githubusercontent.com/41210242/47841519-dba2c080-dd87-11e8-9eaa-956e9b776a3e.png"
+              alt=""
+            />
+            <div className="siteExp">
+              Appy is social sedia app designed in React Native to uplift and
+              encourage users.
+            </div>
           </div>
         </div>
       </div>

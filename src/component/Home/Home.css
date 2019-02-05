@@ -1,62 +1,24 @@
-.allSkills {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
-  align-content: stretch;
-}
-
-.indSkill {
-  display: flex;
-  flex-direction: column;
-  width: 12em;
-  margin: 2em;
-}
-
-.skillPic {
-  width: 5em;
-  height: 5em;
-  align-self: center;
-}
-
-.allSites {
+.homeAll {
   position: relative;
   display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  margin: auto;
-  background-color: rgb(29, 29, 29);
-  width: 90vw;
+  width: 80vw;
+  background-color: black;
+  color: white;
 }
+.allSites {
+  display: flex;
+  flex-direction: column;
+}
+
 .site {
   display: flex;
-  justify-content: space-around;
-  position: relative;
-  align-items: center;
-  height: 50em;
-  width: 80vw;
-}
-.sitePic {
-  position: relative;
-  object-fit: contain;
-  height: 40em;
-  width: 30em;
-  min-width: 30em;
-  margin: 5em;
-  align-items: center;
+  flex-direction: row;
 }
 .siteExp {
-  display: flex;
-  height: 10em;
-  min-width: 20em;
-  width: 40em;
-  text-align: center;
-  align-items: center;
-  background-color: bisque;
-  padding: 10px;
-  margin: 5em;
-  font-size: 20px;
+  width: 15rem;
+  background-color: darkgray;
 }
-
-/* GO BACK AND RESET THE CSS FOR THE HOME PAGE */
+.sitePic {
+  max-width: 20rem;
+  max-height: 30rem;
+}

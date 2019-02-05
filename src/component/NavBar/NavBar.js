@@ -17,11 +17,11 @@ class NavBar extends Component {
             Home
           </Link>
           <Link className="link" to="/resume">
-            Resume
+            Skills
           </Link>
-          <Link className="link" to="/projects">
+          {/* <Link className="link" to="/projects">
             Projects
-          </Link>
+          </Link> */}
           <Link className="link" to="/aboutme">
             About me
           </Link>
