@@ -103,18 +103,22 @@ class Home extends Component {
                 find and scheule the perfect guided outdoor trip.
               </div>
             </div>
-            <img
-              className="sitePic"
-              src="https://res.cloudinary.com/rawtrails801/image/upload/v1548807359/Screen_Shot_2019-01-29_at_6.09.41_PM.png"
-              alt=""
-            />
+            <a href="https://github.com/EricOlaf/raw-trails">
+              <img
+                className="sitePic"
+                src="https://res.cloudinary.com/rawtrails801/image/upload/v1548807359/Screen_Shot_2019-01-29_at_6.09.41_PM.png"
+                alt=""
+              />
+            </a>
           </div>
           <div className="site">
-            <img
-              className="sitePic"
-              src="https://user-images.githubusercontent.com/41210242/47841519-dba2c080-dd87-11e8-9eaa-956e9b776a3e.png"
-              alt=""
-            />
+            <a href="https://github.com/positivity-or-something/appy">
+              <img
+                className="sitePic"
+                src="https://user-images.githubusercontent.com/41210242/47841519-dba2c080-dd87-11e8-9eaa-956e9b776a3e.png"
+                alt=""
+              />
+            </a>
             <div className="siteExp">
               Appy is social sedia app designed in React Native to uplift and
               encourage users.
