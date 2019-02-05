@@ -3,18 +3,20 @@
   display: flex;
   width: 100vw;
   justify-content: center;
-  color: white;
-  margin-top: 1rem;
-  margin-bottom: 2rem;
+  color: #3f3f3f;
+  background-color: rgb(42, 40, 41);
 }
 .allSites {
   width: 90vw;
-  background-color: black;
+  background-color: rgb(242, 240, 238);
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  box-shadow: 10px 10px 5px grey;
+  box-shadow: 10px 10px 10px black;
+  padding: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
 }
 
 .site {
@@ -23,15 +25,28 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  margin: 5rem;
+  margin: 1rem;
 }
 .siteExp {
   min-width: 10rem;
   max-width: 15rem;
-  padding: 20px;
-  margin: 20px;
-  background-color: darkgray;
-  font-size: 1.3rem;
+  padding: 15px;
+  margin: 15px;
+  font-size: 1.45rem;
+}
+
+.siteName {
+  font-size: 1.75rem;
+  border-bottom: solid;
+  border-bottom-style: solid;
+  border-block-start-color: #3f3f3f;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+.seone {
+  text-align: end;
+}
+.setwo {
 }
 .sitePic {
   object-fit: scale-down;
@@ -40,8 +55,14 @@
   max-height: 40rem;
   min-height: 20rem;
   transition: 0.5s ease;
+  border: #3f3f3f;
+  border-style: solid;
+}
+.repo {
+  margin-top: 1rem;
 }
 
-.sitePic:hover {
-  opacity: 0.6;
+a {
+  text-decoration: none;
+  color: rgb(247, 148, 29);
 }

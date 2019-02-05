@@ -97,31 +97,43 @@ class Home extends Component {
         <div className="allSites">
           <h1>Recent Work</h1>
           <div className="site">
-            <div className="siteExp">
+            <div className="siteExp seone">
+              <div className="siteName">Raw Trails</div>
               <div>
-                RawTrails, a website designed in React for adventure seekers to
-                find and scheule the perfect guided outdoor trip.
+                A website designed in React for adventure seekers to find and
+                scheule the perfect guided outdoor trip.
               </div>
+              <div className="repo">
+                View GitHub Repo{" "}
+                <a href="https://github.com/EricOlaf/raw-trails">here.</a>
+              </div>
+              <div>Live example here.</div>
             </div>
-            <a href="https://github.com/EricOlaf/raw-trails">
-              <img
-                className="sitePic"
-                src="https://res.cloudinary.com/rawtrails801/image/upload/v1548807359/Screen_Shot_2019-01-29_at_6.09.41_PM.png"
-                alt=""
-              />
-            </a>
+
+            <img
+              className="sitePic"
+              src="https://res.cloudinary.com/rawtrails801/image/upload/v1548807359/Screen_Shot_2019-01-29_at_6.09.41_PM.png"
+              alt=""
+            />
           </div>
           <div className="site">
-            <a href="https://github.com/positivity-or-something/appy">
-              <img
-                className="sitePic"
-                src="https://user-images.githubusercontent.com/41210242/47841519-dba2c080-dd87-11e8-9eaa-956e9b776a3e.png"
-                alt=""
-              />
-            </a>
-            <div className="siteExp">
-              Appy is social sedia app designed in React Native to uplift and
-              encourage users.
+            <img
+              className="sitePic"
+              src="https://garrettyaworski.com/img/threeviews.jpg"
+              alt=""
+            />
+            <div className="siteExp setwo">
+              <div className="siteName">Appy</div>
+              <div>
+                Social sedia app designed in React Native to uplift and
+                encourage users
+              </div>
+              <div className="repo">
+                View GitHub Repo{" "}
+                <a href="https://github.com/positivity-or-something/appy">
+                  here.
+                </a>
+              </div>
             </div>
           </div>
         </div>
