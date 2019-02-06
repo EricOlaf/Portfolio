@@ -11,7 +11,7 @@ class Header extends Component {
       <div className="headerAll">
         <img
           className="headerPic"
-          src="https://res.cloudinary.com/rawtrails801/image/upload/v1532986443/RawTrails/IMG_1963.JPG.jpg"
+          src="https://res.cloudinary.com/rawtrails801/image/upload/v1549427681/RawTrails/IMG_1963.JPG.jpg"
           alt=""
         />
         <div className="headerText">
@@ -20,6 +20,13 @@ class Header extends Component {
             I design, build, and maintian websites.
           </div>
           <button className="headerBtn">Send me an email</button>
+          <div className="scroll">
+            <div>scroll</div>
+            <img
+              src="https://www.iconsdb.com/icons/preview/white/arrow-208-xl.png"
+              alt=""
+            />
+          </div>
         </div>
       </div>
     );

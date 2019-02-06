@@ -8,7 +8,7 @@ class Contact extends Component {
       <div className="contAll">
         <img
           className="contPic"
-          src="https://res.cloudinary.com/rawtrails801/image/upload/v1532986433/RawTrails/DSC_7434.jpg"
+          src="https://res.cloudinary.com/rawtrails801/image/upload/v1532986435/RawTrails/i-88ZTPhL-X2.jpg"
           alt=""
         />
         <div className="contText">

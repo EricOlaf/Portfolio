@@ -98,7 +98,7 @@ class Home extends Component {
         </div> */}
 
           <div className="allSites">
-            <h1>Recent Work</h1>
+            <div className="sitesTitle">Recent Work</div>
             <div className="site">
               <div className="siteExp seone">
                 <div className="siteName">Raw Trails</div>
