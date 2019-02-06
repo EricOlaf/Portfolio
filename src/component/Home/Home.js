@@ -1,12 +1,15 @@
 import React, { Component } from "react";
+import Header from "../Header/Header";
 
 import "./Home.css";
 
 class Home extends Component {
   render() {
     return (
-      <div className="homeAll">
-        {/* <h1>Skills</h1>
+      <div>
+        <Header />
+        <div className="homeAll">
+          {/* <h1>Skills</h1>
         <div className="allSkills">
           <div className="indSkill">
             <img
@@ -94,45 +97,46 @@ class Home extends Component {
           </div>
         </div> */}
 
-        <div className="allSites">
-          <h1>Recent Work</h1>
-          <div className="site">
-            <div className="siteExp seone">
-              <div className="siteName">Raw Trails</div>
-              <div>
-                A website designed in React for adventure seekers to find and
-                scheule the perfect guided outdoor trip.
+          <div className="allSites">
+            <h1>Recent Work</h1>
+            <div className="site">
+              <div className="siteExp seone">
+                <div className="siteName">Raw Trails</div>
+                <div>
+                  A website designed in React for adventure seekers to find and
+                  scheule the perfect guided outdoor trip.
+                </div>
+                <div className="repo">
+                  View GitHub Repo{" "}
+                  <a href="https://github.com/EricOlaf/raw-trails">here.</a>
+                </div>
+                <div>Live example here.</div>
               </div>
-              <div className="repo">
-                View GitHub Repo{" "}
-                <a href="https://github.com/EricOlaf/raw-trails">here.</a>
-              </div>
-              <div>Live example here.</div>
-            </div>
 
-            <img
-              className="sitePic"
-              src="https://res.cloudinary.com/rawtrails801/image/upload/v1548807359/Screen_Shot_2019-01-29_at_6.09.41_PM.png"
-              alt=""
-            />
-          </div>
-          <div className="site">
-            <img
-              className="sitePic"
-              src="https://garrettyaworski.com/img/threeviews.jpg"
-              alt=""
-            />
-            <div className="siteExp setwo">
-              <div className="siteName">Appy</div>
-              <div>
-                Social sedia app designed in React Native to uplift and
-                encourage users
-              </div>
-              <div className="repo">
-                View GitHub Repo{" "}
-                <a href="https://github.com/positivity-or-something/appy">
-                  here.
-                </a>
+              <img
+                className="sitePic"
+                src="https://res.cloudinary.com/rawtrails801/image/upload/v1548807359/Screen_Shot_2019-01-29_at_6.09.41_PM.png"
+                alt=""
+              />
+            </div>
+            <div className="site">
+              <img
+                className="sitePic"
+                src="https://garrettyaworski.com/img/threeviews.jpg"
+                alt=""
+              />
+              <div className="siteExp setwo">
+                <div className="siteName">Appy</div>
+                <div>
+                  Social sedia app designed in React Native to uplift and
+                  encourage users
+                </div>
+                <div className="repo">
+                  View GitHub Repo{" "}
+                  <a href="https://github.com/positivity-or-something/appy">
+                    here.
+                  </a>
+                </div>
               </div>
             </div>
           </div>

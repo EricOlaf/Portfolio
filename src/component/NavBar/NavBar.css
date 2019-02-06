@@ -25,6 +25,7 @@
   border: solid;
   border-width: 1px;
   border-color: ghostwhite;
+  border-radius: 10px;
 }
 .link.active {
   background-color: ghostwhite;

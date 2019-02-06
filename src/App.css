@@ -1,3 +1,20 @@
 * {
   reset: all;
 }
+
+button {
+  height: 80px;
+  width: 200px;
+  font-size: 1.3rem;
+  color: white;
+  background-color: #3f3f3f;
+  border: none;
+  border-radius: 20px;
+}
+
+button:hover {
+  cursor: pointer;
+  border: white;
+  border-style: solid;
+  border-width: 1px;
+}

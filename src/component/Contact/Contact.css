@@ -1,18 +1,68 @@
-.contact {
+.contAll {
+  position: relative;
   display: flex;
-  align-content: center;
-  justify-content: space-around;
+  justify-content: center;
   width: 100vw;
-  height: 40vh;
+  height: 25rem;
+}
+.contPic {
+  position: relative;
+  width: 100%;
+  height: 120%;
+  object-fit: cover;
+  z-index: 0;
+  opacity: 0.7;
+  overflow: initial;
+}
+
+.contText {
+  width: 100vw;
+  height: 50vh;
+  position: absolute;
+  background: -webkit-linear-gradient(rgb(42, 40, 41), transparent);
+  z-index: 1;
   color: white;
-  background-color: rgb(30, 30, 30);
-  padding-top: 3em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.contLeft {
-  width: 40vw;
-}
-
+.contLeft,
 .contRight {
-  width: 35vw;
+  width: 50vw;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 2rem;
+  margin-top: 4rem;
+}
+
+.picEric {
+  width: 10rem;
+  height: 10rem;
+  object-fit: cover;
+  border-radius: 50%;
+  border-color: #3f3f3f;
+  border-style: solid;
+  margin-top: 2rem;
+}
+.contTitle {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.contAb {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+.socMed {
+  display: flex;
+  flex-direction: column;
+}
+.socMed a {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  text-decoration: none;
+  color: white;
 }
