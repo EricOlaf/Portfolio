@@ -10,7 +10,6 @@
   position: fixed;
   z-index: 1;
   width: 100%;
-  /* opacity: 0.75; */
   opacity: 0.8;
   object-fit: cover;
   text-anchor: middle;

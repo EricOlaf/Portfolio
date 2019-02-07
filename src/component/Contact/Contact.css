@@ -3,7 +3,7 @@
   display: flex;
   justify-content: center;
   width: 100vw;
-  height: 25rem;
+  height: 30rem;
   z-index: 3;
 }
 .contPic {
@@ -37,7 +37,10 @@
   justify-content: flex-start;
   align-items: center;
   margin: 2rem;
-  margin-top: 4rem;
+  margin-top: 2rem;
+}
+.contRight {
+  margin-top: 6rem;
 }
 
 .picEric {
@@ -45,11 +48,12 @@
   height: 10rem;
   object-fit: cover;
   border-radius: 50%;
-  margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 .contTitle {
   font-size: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 .contAb {
   width: 30vw;
@@ -59,6 +63,7 @@
 .socMed {
   display: flex;
   flex-direction: column;
+  margin-top: 2rem;
 }
 .socMed a {
   margin-bottom: 2rem;
@@ -67,8 +72,13 @@
   color: white;
 }
 
-.socMed a:hover {
-  background: -webkit-linear-gradient(rgb(98, 106, 111), rgb(172, 171, 171));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+.socIcon {
+  height: 5rem;
+  width: 5rem;
+  background-color: rgb(87, 91, 102);
+  border-radius: 50%;
+}
+
+.socIcon:hover {
+  background: -webkit-linear-gradient(rgb(59, 57, 66), rgb(87, 91, 102));
 }

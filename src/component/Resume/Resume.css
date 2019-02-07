@@ -1,10 +1,49 @@
+.resHeaderAll {
+  position: relative;
+  display: flex;
+  width: 100vw;
+  height: 30rem;
+}
+
+.resumePic {
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  text-anchor: middle;
+  overflow: hidden;
+}
+.resumeHeaderContainer {
+  position: relative;
+  width: 100vw;
+  height: 30rem;
+  background: -webkit-linear-gradient(
+    transparent,
+    transparent,
+    rgb(74, 97, 124)
+  );
+  z-index: 2;
+}
+.resumeHeader {
+  position: absolute;
+  top: 25vh;
+  left: 20vw;
+  font-size: 5rem;
+  z-index: 3;
+  color: white;
+}
+
 .techAll {
+  position: relative;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
   align-content: stretch;
+  padding: 30px;
+  background: -webkit-linear-gradient(rgb(74, 97, 124), rgb(42, 40, 41));
 }
 
 .techSingle {
@@ -31,8 +70,48 @@
 .redux {
   object-fit: contain;
 }
+
+.experience {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  background-color: rgb(42, 40, 41);
+}
+.insideRes {
+  width: 80vw;
+  max-width: 900px;
+  background-color: rgb(249, 248, 247);
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  margin-bottom: 3rem;
+  padding: 2rem;
+  color: #3f3f3f;
+}
+.expTitle {
+  text-align: center;
+  font-size: 2rem;
+  margin: 1rem;
+}
+.expBoth {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
 .devMtnPic {
-  height: 90px;
+  height: 120px;
   margin: 20px;
   object-fit: contain;
+  border-radius: 50%;
+}
+.expTextAll {
+  margin-left: 30px;
+  width: 30vw;
+}
+.expEachTitle {
+  font-size: 1.6rem;
+}
+
+.expTextInfo {
+  font-size: 1.2rem;
 }

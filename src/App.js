@@ -14,7 +14,7 @@ class App extends Component {
       <div className="App">
         <NavBar />
         {routes}
-        <Contact />
+        <Contact name="contactMe" />
       </div>
     );
   }
