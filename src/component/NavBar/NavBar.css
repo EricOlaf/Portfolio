@@ -10,13 +10,13 @@
   background: rgba(0, 0, 0, 0.6);
 }
 .navName {
-  color: ghostwhite;
+  color: rgb(237, 231, 226);
   margin: 1em;
 }
 
 .link {
   text-decoration: none;
-  color: ghostwhite;
+  color: rgb(237, 231, 226);
   padding: 0.5em;
   margin: 0.5em;
   display: inline-block;

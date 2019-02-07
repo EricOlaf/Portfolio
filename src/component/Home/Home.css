@@ -6,10 +6,12 @@
   justify-content: center;
   color: #3f3f3f;
   background-color: rgb(42, 40, 41);
+  font-family: "Open Sans";
 }
 .sitesTitle {
-  font-size: 3rem;
-  margin: 1rem;
+  font-size: 1.7rem;
+  letter-spacing: 2px;
+  margin: 2rem;
 }
 
 .allSites {
@@ -33,18 +35,20 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin: 3rem;
+  margin: 1rem;
 }
 .siteExp {
   min-width: 10rem;
   max-width: 15rem;
   padding: 0.5rem;
-  margin: 5rem;
-  font-size: 1.45rem;
+  margin: 3rem;
+  font-size: 1rem;
+  font-family: "Raleway";
 }
 
 .siteName {
-  font-size: 1.75rem;
+  font-family: "Open Sans";
+  font-size: 1.3rem;
   border-bottom: solid;
   border-bottom-style: solid;
   border-block-start-color: #3f3f3f;
@@ -55,13 +59,16 @@
   text-align: end;
 }
 .setwo {
+  margin-bottom: 5rem;
 }
 .sitePic {
   object-fit: scale-down;
-  max-width: 53rem;
-  min-width: 25rem;
-  max-height: 40rem;
-  min-height: 20rem;
+  max-width: 20rem;
+  min-width: 15rem;
+  max-height: 20rem;
+  min-height: 15rem;
+  border: solid;
+  border-color: lightgray;
 }
 .repo {
   margin-top: 1rem;

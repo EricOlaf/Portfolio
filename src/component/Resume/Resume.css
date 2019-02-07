@@ -33,6 +33,14 @@
   z-index: 3;
   color: white;
 }
+.techTitleAll {
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  font-family: "Open Sans";
+  font-size: 1.7rem;
+  letter-spacing: 2px;
+}
 
 .techAll {
   position: relative;
@@ -43,24 +51,26 @@
   align-items: center;
   align-content: stretch;
   padding: 30px;
-  background: -webkit-linear-gradient(rgb(74, 97, 124), rgb(42, 40, 41));
+  /* background: -webkit-linear-gradient(rgb(74, 97, 124), rgb(42, 40, 41)); */
 }
 
 .techSingle {
+  font-family: "Open Sans";
+  letter-spacing: 1.2px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  height: 200px;
-  width: 200px;
-  background-color: rgb(145, 145, 145);
+  height: 140px;
+  width: 140px;
+  /* background-color: #3f3f3f; */
   margin: 20px;
 }
 
 .techImage {
-  width: 120px;
-  height: 120px;
+  width: 90px;
+  height: 90px;
   object-fit: cover;
 }
 .reactNative {
@@ -75,43 +85,56 @@
   display: flex;
   justify-content: center;
   position: relative;
-  background-color: rgb(42, 40, 41);
+  /* background-color: rgb(42, 40, 41); */
 }
 .insideRes {
-  width: 80vw;
+  width: 100vw;
   max-width: 900px;
-  background-color: rgb(249, 248, 247);
-  border-radius: 10px;
-  box-shadow: 10px 10px 10px black;
+  background-color: #3f3f3f;
+  /* box-shadow: 10px 10px 10px black; */
+  margin-top: 3rem;
   margin-bottom: 3rem;
   padding: 2rem;
-  color: #3f3f3f;
+  color: rgb(237, 231, 226);
 }
 .expTitle {
   text-align: center;
-  font-size: 2rem;
-  margin: 1rem;
+  font-family: "Open Sans";
+  font-size: 1.7rem;
+  letter-spacing: 4.3px;
+  margin: 3rem;
 }
 .expBoth {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  margin: 2rem;
 }
 .devMtnPic {
   height: 120px;
   margin: 20px;
   object-fit: contain;
   border-radius: 50%;
+  opacity: 0.93;
 }
 .expTextAll {
+  margin-bottom: 1rem;
   margin-left: 30px;
   width: 30vw;
 }
 .expEachTitle {
-  font-size: 1.6rem;
+  font-family: "Open Sans";
+  font-size: 1.4rem;
+  letter-spacing: 2px;
+  border-bottom: solid;
+  border-bottom-color: rgb(237, 231, 226);
+  border-bottom-width: 1px;
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .expTextInfo {
-  font-size: 1.2rem;
+  font-family: "Raleway";
+  font-size: 1rem;
 }

@@ -1,13 +1,17 @@
 * {
   reset: all;
 }
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url("https://fonts.googleapis.com/css?family=Raleway|Roboto");
 
 button {
   height: 80px;
   min-height: 60px;
   width: 200px;
-  font-size: 1.3rem;
-  color: white;
+  font-size: 1.1rem;
+  font-family: "Open Sans";
+  letter-spacing: 1.1px;
+  color: rgb(237, 231, 226);
   background-color: #3f3f3f;
   border: none;
   border-radius: 5px;
@@ -15,10 +19,14 @@ button {
 
 button:hover {
   cursor: pointer;
-  border: white;
+  border: rgb(237, 231, 226);
   border-style: solid;
   border-width: 1px;
 }
 button:focus {
   outline: none;
+}
+
+.App {
+  color: #3f3f3f;
 }

@@ -19,15 +19,15 @@ class Contact extends Component {
               src="https://res.cloudinary.com/rawtrails801/image/upload/v1549401716/_DSC5514.jpg"
               alt=""
             />
-            <div className="contTitle">Let's work together!</div>
+            <div className="contTitle">LET'S WORK TOGETHER</div>
             <div className="contAb">
               I'm a Full Stack developer with a thirst for knowledge and
               oportunities fluent in English and Spanish.
             </div>
-            <button>Contact me</button>
+            <button>CONTACT ME</button>
           </div>
           <div className="contRight">
-            <div className="contTitle">Find Me on:</div>
+            <div className="contTitle">FIND ME ON:</div>
             <div className="socMed">
               <a href="https://www.linkedin.com/in/eric-olaveson-229b0a90">
                 <img

@@ -22,7 +22,7 @@
   position: absolute;
   background: -webkit-linear-gradient(rgb(42, 40, 41), transparent);
   z-index: 1;
-  color: white;
+  color: rgb(237, 231, 226);
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -51,13 +51,16 @@
   margin-bottom: 1rem;
 }
 .contTitle {
-  font-size: 2rem;
+  font-family: "Open Sans";
+  font-size: 1.7rem;
+  letter-spacing: 2px;
   margin-bottom: 1rem;
   margin-top: 1rem;
 }
 .contAb {
+  font-family: "Raleway";
   width: 30vw;
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin-bottom: 2rem;
 }
 .socMed {

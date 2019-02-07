@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Header from "../Header/Header";
-
+import Resume from "../Resume/Resume";
+import AboutMe from "../AboutMe/AboutMe";
 import "./Home.css";
 
 class Home extends Component {
@@ -98,10 +99,11 @@ class Home extends Component {
         </div> */}
 
           <div className="allSites">
-            <div className="sitesTitle">Recent Work</div>
+            <Resume />
+            <div className="sitesTitle">RECENT WORK</div>
             <div className="site">
               <div className="siteExp seone">
-                <div className="siteName">Raw Trails</div>
+                <div className="siteName">RAW TRAILS</div>
                 <div>
                   A website designed in React for adventure seekers to find and
                   scheule the perfect guided outdoor trip.
@@ -126,7 +128,7 @@ class Home extends Component {
                 alt=""
               />
               <div className="siteExp setwo">
-                <div className="siteName">Appy</div>
+                <div className="siteName">APPY</div>
                 <div>
                   Social sedia app designed in React Native to uplift and
                   encourage users
@@ -139,6 +141,7 @@ class Home extends Component {
                 </div>
               </div>
             </div>
+            <AboutMe />
           </div>
         </div>
       </div>

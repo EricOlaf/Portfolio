@@ -10,7 +10,7 @@ class Resume extends Component {
   render() {
     return (
       <div>
-        <div className="resHeaderAll">
+        {/* <div className="resHeaderAll">
           <div className="resumeHeaderContainer">
             <div className="resumeHeader">Technologies</div>
           </div>
@@ -19,10 +19,13 @@ class Resume extends Component {
             src="https://res.cloudinary.com/rawtrails801/image/upload/v1532986406/RawTrails/DSC_0299.jpg"
             alt=""
           />
+        </div> */}
+        <div className="techTitleAll">
+          <div>TECH/SKILLS</div>
         </div>
         <div className="techAll">
           <div className="techSingle">
-            <div className="">React</div>
+            <div className="">REACT</div>
             <img
               className="techImage"
               src="https://arcweb.co/wp-content/uploads/2016/10/react-logo-1000-transparent.png"
@@ -30,7 +33,7 @@ class Resume extends Component {
             />
           </div>
           <div className="techSingle">
-            <div className="">React Native</div>
+            <div className="">REACT NATIVE</div>
             <img
               className="techImage reactNative"
               src="https://www.inovex.de/blog/wp-content/uploads/2018/03/react-native.png"
@@ -38,7 +41,7 @@ class Resume extends Component {
             />
           </div>
           <div className="techSingle">
-            <div className="">Redux</div>
+            <div className="">REDUX</div>
             <img
               className="techImage redux"
               src="http://www.stickpng.com/assets/images/5848309bcef1014c0b5e4a9a.png"
@@ -54,7 +57,7 @@ class Resume extends Component {
             />
           </div>
           <div className="techSingle">
-            <div className="">Express.js</div>
+            <div className="">EXPRESS</div>
             <img
               className="techImage"
               src="https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/000/359/landscape/expressjslogo.png"
@@ -62,7 +65,7 @@ class Resume extends Component {
             />
           </div>
           <div className="techSingle">
-            <div className="">Git+GitHub</div>
+            <div className="">GIT+GITHUB</div>
             <img
               className="techImage"
               src="http://www.stickpng.com/assets/images/5847f981cef1014c0b5e48be.png"
@@ -78,7 +81,7 @@ class Resume extends Component {
             />
           </div>
           <div className="techSingle">
-            <div className="">PostgresQL</div>
+            <div className="">POSTGRESQL</div>
             <img
               className="techImage"
               src="http://www.stickpng.com/assets/images/584815fdcef1014c0b5e497a.png"
@@ -94,7 +97,7 @@ class Resume extends Component {
             />
           </div>
           <div className="techSingle">
-            <div className="">Node.js</div>
+            <div className="">NODE</div>
             <img
               className="techImage"
               src="https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/000/256/full/nodejslogo.png"
@@ -104,7 +107,7 @@ class Resume extends Component {
         </div>
         <div className="experience">
           <div className="insideRes">
-            <div className="expTitle">Coding Experience</div>
+            <div className="expTitle">CODING EXPERIENCE</div>
             <div className="expBoth">
               <a href="https://devmountain.com/">
                 <img
@@ -114,7 +117,7 @@ class Resume extends Component {
                 />
               </a>
               <div className="expTextAll">
-                <div className="expEachTitle">DevMountain</div>
+                <div className="expEachTitle">DEVMOUNTAIN</div>
                 <div className="expTextInfo">
                   Completed 3-month intensive coursework to build foundation as
                   a SERN stack developer with a base in Javascipt based
@@ -132,7 +135,7 @@ class Resume extends Component {
                 />
               </a>
               <div className="expTextAll">
-                <div className="expEachTitle">DevMountain</div>
+                <div className="expEachTitle">DEVMOUNTAIN</div>
                 <div className="expTextInfo">
                   Volunteer tutor at DevMountain. Time was spent discussing core
                   concepts in JavaScript, React, Express, Node, and SQL.

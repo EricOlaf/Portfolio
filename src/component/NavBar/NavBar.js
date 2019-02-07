@@ -11,22 +11,22 @@ class NavBar extends Component {
   render() {
     return (
       <div className="navbarAll">
-        <div className="navName">Eric Olaveson</div>
+        <div className="navName">ERIC OLAVESON</div>
         <div className="navLinks">
           <Link className="link" to="/">
-            Home
+            HOME
           </Link>
           <Link className="link" to="/resume">
-            Skills
+            SKILLS
           </Link>
           {/* <Link className="link" to="/projects">
             Projects
           </Link> */}
           <Link className="link" to="/aboutme">
-            About me
+            ABOUT
           </Link>
           <a className="link" href="#contactMe">
-            Contact
+            CONTACT ME
           </a>
         </div>
       </div>

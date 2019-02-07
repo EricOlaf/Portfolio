@@ -32,7 +32,6 @@
   left: 20vw;
   font-size: 5rem;
   z-index: 3;
-  color: white;
 }
 .aboutHeaderPicMe {
   width: 16rem;
@@ -55,14 +54,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 90vw;
-  max-width: 900px;
-  border-radius: 10px;
-  background-color: rgb(33, 33, 33);
-  box-shadow: 10px 10px 10px black;
-  margin-bottom: 3rem;
+  width: 55rem;
+  background-color: #3f3f3f;
+  /* box-shadow: 10px 10px 10px black; */
   padding: 2rem;
-  color: white;
+  color: rgb(237, 231, 226);
+  margin: 4rem;
 }
 .aboutPageTextAll {
   position: relative;
@@ -73,9 +70,15 @@
   margin: 3rem;
 }
 .aboutPageTitle {
-  font-size: 2rem;
-  text-decoration: underline;
-  text-decoration-color: white;
+  font-family: "Open Sans";
+  font-size: 1.7rem;
+  letter-spacing: 2px;
+  /* text-decoration: underline;
+  text-decoration-color: white; */
+
+  border-bottom: solid white 0.8px;
+  padding-bottom: 1rem;
 }
 .aboutPageText {
+  font-family: "Raleway";
 }
