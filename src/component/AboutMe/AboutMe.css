@@ -22,7 +22,7 @@
   background: -webkit-linear-gradient(
     transparent,
     transparent,
-    rgb(74, 97, 124)
+    rgb(108, 106, 127)
   );
   z-index: 2;
 }
@@ -49,7 +49,7 @@
   display: flex;
   justify-content: center;
   width: 100vw;
-  background: -webkit-linear-gradient(rgb(74, 97, 124), rgb(42, 40, 41));
+  background: -webkit-linear-gradient(rgb(108, 106, 127), rgb(42, 40, 41));
 }
 .aboutPage {
   display: flex;
