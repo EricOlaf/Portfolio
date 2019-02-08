@@ -25,7 +25,7 @@ class About extends Component {
         {/* <div className="aboutMainContainer"> */}
         <div className="aboutPage">
           <div className="aboutPageTextAll">
-            <div className="aboutPageTitle">About Me</div>
+            <div className="aboutPageTitle">ABOUT ME</div>
             <div className="aboutPageText">
               <p>
                 Growing up in Idaho I enjoyed an active lifestyle, playing

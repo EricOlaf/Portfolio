@@ -4,25 +4,57 @@ import Resume from "../Resume/Resume";
 import AboutMe from "../AboutMe/AboutMe";
 import Contact from "../Contact/Contact";
 import NavBar from "../NavBar/NavBar";
+import Overlay from "../Overlay/Overlay";
 import "./Home.css";
 
 class Home extends Component {
   constructor() {
     super();
     this.state = {
-      contact: false
+      contact: "noShow"
     };
   }
 
-  contactHandler = () => {
-    this.setState({ contact: !this.state.contact });
+  contactHandlerOn = () => {
+    this.setState({ contact: "show" });
+  };
+
+  contactHandlerOff = () => {
+    this.setState({ contact: "noShow" });
   };
 
   render() {
     return (
       <div>
+        <div
+          className={this.state.contact}
+          onClick={() => {
+            this.contactHandlerOff();
+          }}
+        >
+          <div className="overlayContainer">
+            <div className="overlayContainerTwo">
+              <div className="olay email">
+                <img
+                  src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-email-outline-128.png"
+                  alt=""
+                  className="olayPic"
+                />
+                <div className="olayInfo">olavesoneric@gmail.com</div>
+              </div>
+              <div className="olay phone">
+                <img
+                  src="https://cdn2.iconfinder.com/data/icons/pittogrammi/142/04-128.png"
+                  alt=""
+                  className="olayPic"
+                />
+                <div className="olayInfo">208-390-1971</div>
+              </div>
+            </div>
+          </div>
+        </div>
         <NavBar />
-        <Header contactHandler={this.contactHandler} />
+        <Header contactHandler={this.contactHandlerOn} />
         <div className="homeAll">
           <div className="allSites">
             <Resume />
@@ -70,7 +102,7 @@ class Home extends Component {
             <AboutMe />
           </div>
         </div>
-        <Contact />
+        <Contact contactHandler={this.contactHandlerOn} />
       </div>
     );
   }

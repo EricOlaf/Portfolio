@@ -24,7 +24,7 @@ class Contact extends Component {
               I'm a Full Stack developer with a thirst for knowledge and
               oportunities fluent in English and Spanish.
             </div>
-            <button>CONTACT ME</button>
+            <button onClick={this.props.contactHandler}>CONTACT ME</button>
           </div>
           <div className="contRight">
             <div className="contTitle">FIND ME ON:</div>

@@ -20,7 +20,9 @@ class Header extends Component {
           <div className="headerInfo">
             i design, build, and maintain websites
           </div>
-          <button className="headerBtn">CONTACT ME</button>
+          <button className="headerBtn" onClick={this.props.contactHandler}>
+            CONTACT ME
+          </button>
           {/* <div className="scroll">
             <div>scroll</div>
             <img
