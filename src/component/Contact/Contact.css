@@ -22,7 +22,7 @@
   position: absolute;
   background: -webkit-linear-gradient(rgb(42, 40, 41), transparent);
   z-index: 1;
-  color: rgb(237, 231, 226);
+  color: rgb(211, 211, 211);
   display: flex;
   justify-content: space-around;
   align-items: center;

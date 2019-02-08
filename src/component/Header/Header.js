@@ -17,7 +17,9 @@ class Header extends Component {
         />
         <div className="headerText">
           <div className="headerTitle">ERIC OLAVESON</div>
-          <div className="headerInfo">aspiring full-stack developer</div>
+          <div className="headerInfo">
+            i design, build, and maintain websites
+          </div>
           <button className="headerBtn">CONTACT ME</button>
           {/* <div className="scroll">
             <div>scroll</div>

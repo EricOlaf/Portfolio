@@ -50,7 +50,7 @@
   justify-content: space-around;
   align-items: center;
   align-content: stretch;
-  padding: 30px;
+  padding: 2rem;
   /* background: -webkit-linear-gradient(rgb(74, 97, 124), rgb(42, 40, 41)); */
 }
 
@@ -72,6 +72,7 @@
   width: 90px;
   height: 90px;
   object-fit: cover;
+  padding: 5px;
 }
 .reactNative {
   border-radius: 50%;
@@ -95,7 +96,7 @@
   margin-top: 3rem;
   margin-bottom: 3rem;
   padding: 2rem;
-  color: rgb(237, 231, 226);
+  color: rgb(211, 211, 211);
 }
 .expTitle {
   text-align: center;

@@ -8,15 +8,16 @@
   width: 100vw;
   height: 70px;
   background: rgba(0, 0, 0, 0.6);
+  font-family: "Open Sans";
 }
 .navName {
-  color: rgb(237, 231, 226);
+  color: rgb(211, 211, 211);
   margin: 1em;
 }
 
 .link {
   text-decoration: none;
-  color: rgb(237, 231, 226);
+  color: rgb(211, 211, 211);
   padding: 0.5em;
   margin: 0.5em;
   display: inline-block;

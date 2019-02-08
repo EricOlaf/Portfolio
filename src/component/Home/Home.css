@@ -63,9 +63,9 @@
 }
 .sitePic {
   object-fit: scale-down;
-  max-width: 20rem;
+  max-width: 25rem;
   min-width: 15rem;
-  max-height: 20rem;
+  max-height: 25rem;
   min-height: 15rem;
   border: solid;
   border-color: lightgray;
