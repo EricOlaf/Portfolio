@@ -22,7 +22,7 @@ class Contact extends Component {
             <div className="contTitle">LET'S WORK TOGETHER</div>
             <div className="contAb">
               I'm a Full Stack developer with a thirst for knowledge and
-              oportunities fluent in English and Spanish.
+              oportunities in English or Spanish.
             </div>
             <button onClick={this.props.contactHandler}>CONTACT ME</button>
           </div>

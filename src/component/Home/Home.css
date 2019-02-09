@@ -11,9 +11,9 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(89, 87, 87, 0.98); /* Black background with opacity */
+  background-color: rgba(55, 55, 55, 0.9); /* Black background with opacity */
   z-index: 15; /* Specify a stack order in case you're using a different order for other elements */
-  cursor: pointer; /* Add a pointer on hover */
+  box-shadow: 10px 10px 10px black;
 }
 
 .overlayContainer {
@@ -25,33 +25,66 @@
   align-items: center;
 }
 .overlayContainerTwo {
+  display: inline-block;
+  position: relative;
+  height: 280px;
+  width: 475px;
+  background-color: rgb(211, 211, 211);
+  padding: 2rem;
+}
+.overlayExitContainer {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  padding: 5px;
+  font-size: 1.5rem;
+}
+.overlayExitContainer:hover {
+  cursor: pointer;
+}
+
+.overalyAllInfoContainer {
   display: flex;
+  height: 210px;
+  margin-top: 1rem;
   flex-direction: column;
   justify-content: space-around;
-  align-items: center;
-  height: 40vh;
-  width: 40vw;
-  background-color: rgb(249, 248, 247);
-  padding: 2rem;
+  align-items: flex-start;
 }
 
 .olay {
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
 .olayPic {
-  height: 100px;
-  width: 100px;
+  height: 40px;
+  width: 40px;
   object-fit: cover;
+  border-right: solid #3f3f3f;
+  padding-right: 2rem;
 }
 
 .olayInfo {
   font-family: "Open Sans";
-  font-size: 1.7rem;
-  letter-spacing: 2px;
+  font-size: 1.2rem;
+  letter-spacing: 1.2px;
   margin: 2rem;
   color: black;
+}
+.overlayLinksContainer {
+  position: absolute;
+  bottom: 10px;
+  left: 35%;
+}
+.overlayImg {
+  height: 30px;
+  width: 30px;
+  margin: 15px;
+  padding: 5px;
+  background-color: #767575;
+  border-radius: 50%;
 }
 
 .homeAll {
@@ -67,7 +100,8 @@
 .sitesTitle {
   font-size: 1.7rem;
   letter-spacing: 2px;
-  margin: 2rem;
+  margin: 3rem;
+  margin-bottom: 4rem;
 }
 
 .allSites {
