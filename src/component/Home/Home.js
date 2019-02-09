@@ -74,7 +74,7 @@ class Home extends Component {
             </div>
           </div>
         </div>
-        <NavBar />
+        <NavBar contactHandler={this.contactHandlerOn} />
         <Header contactHandler={this.contactHandlerOn} />
         <div className="homeAll">
           <div className="allSites">
@@ -96,18 +96,22 @@ class Home extends Component {
                 </div>
               </div>
 
-              <img
-                className="sitePic"
-                src="https://res.cloudinary.com/rawtrails801/image/upload/v1548807359/Screen_Shot_2019-01-29_at_6.09.41_PM.png"
-                alt=""
-              />
+              <a href="https://github.com/EricOlaf/raw-trails">
+                <img
+                  className="sitePic"
+                  src="https://res.cloudinary.com/rawtrails801/image/upload/v1548807359/Screen_Shot_2019-01-29_at_6.09.41_PM.png"
+                  alt=""
+                />
+              </a>
             </div>
             <div className="site two">
-              <img
-                className="sitePic"
-                src="https://garrettyaworski.com/img/threeviews.jpg"
-                alt=""
-              />
+              <a href="https://github.com/positivity-or-something/appy">
+                <img
+                  className="sitePic"
+                  src="https://garrettyaworski.com/img/threeviews.jpg"
+                  alt=""
+                />
+              </a>
               <div className="siteExp setwo">
                 <div className="siteName">APPY</div>
                 <div className="infoOnMySite">

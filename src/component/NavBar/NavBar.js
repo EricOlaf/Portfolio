@@ -11,24 +11,23 @@ class NavBar extends Component {
   render() {
     return (
       <div className="navbarAll">
-        <div className="navName">ERIC OLAVESON</div>
-        <div className="navLinks">
+        <div className="navName" onClick={this.props.contactHandler}>
+          ERIC OLAVESON
+        </div>
+        {/* <div className="navLinks">
           <Link className="link" to="/">
             HOME
           </Link>
           <Link className="link" to="/resume">
             SKILLS
           </Link>
-          {/* <Link className="link" to="/projects">
-            Projects
-          </Link> */}
           <Link className="link" to="/aboutme">
             ABOUT
           </Link>
           <a className="link" href="#contactMe">
             CONTACT ME
           </a>
-        </div>
+        </div> */}
       </div>
     );
   }

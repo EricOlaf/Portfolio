@@ -1,7 +1,7 @@
 .navbarAll {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: start;
   align-items: center;
   position: fixed;
   z-index: 10;
@@ -13,6 +13,11 @@
 .navName {
   color: rgb(211, 211, 211);
   margin: 1em;
+  padding-left: 2rem;
+}
+.navName:hover {
+  cursor: pointer;
+  color: rgb(243, 241, 239);
 }
 
 .link {
