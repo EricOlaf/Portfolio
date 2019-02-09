@@ -83,15 +83,17 @@ class Home extends Component {
             <div className="site">
               <div className="siteExp seone">
                 <div className="siteName">RAW TRAILS</div>
-                <div>
+                <div className="infoOnMySite">
                   A website designed in React for adventure seekers to find and
                   scheule the perfect guided outdoor trip.
                 </div>
-                <div className="repo">
+                <div className="repo infoOnMySite">
                   View GitHub Repo{" "}
                   <a href="https://github.com/EricOlaf/raw-trails">here.</a>
                 </div>
-                <div>Live example here.</div>
+                <div className="repo infoOnMySite">
+                  Live example <a href="http://206.189.220.112:3005">here.</a>
+                </div>
               </div>
 
               <img
@@ -100,7 +102,7 @@ class Home extends Component {
                 alt=""
               />
             </div>
-            <div className="site">
+            <div className="site two">
               <img
                 className="sitePic"
                 src="https://garrettyaworski.com/img/threeviews.jpg"
@@ -108,11 +110,11 @@ class Home extends Component {
               />
               <div className="siteExp setwo">
                 <div className="siteName">APPY</div>
-                <div>
+                <div className="infoOnMySite">
                   Social sedia app designed in React Native to uplift and
                   encourage users
                 </div>
-                <div className="repo">
+                <div className="repo infoOnMySite">
                   View GitHub Repo{" "}
                   <a href="https://github.com/positivity-or-something/appy">
                     here.

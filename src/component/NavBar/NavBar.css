@@ -39,3 +39,15 @@
   -webkit-transform: translateY(8px);
   transform: translateY(8px);
 }
+
+@media (max-width: 750px) {
+  .link {
+    display: none;
+  }
+  .navbarAll {
+    height: 50px;
+  }
+  .navName {
+    font-size: 0.9rem;
+  }
+}

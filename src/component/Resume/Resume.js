@@ -3,10 +3,6 @@ import "./Resume.css";
 import pic from "../../pics";
 
 class Resume extends Component {
-  constructor() {
-    super();
-    this.state = {};
-  }
   render() {
     return (
       <div>

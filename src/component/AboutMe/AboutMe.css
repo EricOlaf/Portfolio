@@ -55,6 +55,7 @@
   justify-content: center;
   align-items: center;
   width: 55rem;
+
   background-color: #3f3f3f;
   /* box-shadow: 10px 10px 10px black; */
   padding: 2rem;
@@ -81,4 +82,37 @@
 }
 .aboutPageText {
   font-family: "Raleway";
+}
+
+@media (max-width: 1200px) {
+  .aboutPage {
+    max-width: 700px;
+  }
+}
+@media (max-width: 925px) {
+  .aboutPage {
+    max-width: 65vw;
+    flex-direction: column-reverse;
+  }
+  .aboutHeaderPicMe {
+    height: 10rem;
+    width: 10rem;
+    margin-top: 1rem;
+  }
+  .aboutPageTitle {
+    text-align: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .aboutPage {
+    max-width: 55vw;
+  }
+  .aboutPageTitle {
+    font-size: 1.2rem;
+    letter-spacing: 2.3px;
+  }
+  .aboutPageText {
+    font-size: 0.88rem;
+  }
 }

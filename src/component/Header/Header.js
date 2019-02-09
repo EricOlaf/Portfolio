@@ -18,7 +18,7 @@ class Header extends Component {
         <div className="headerText">
           <div className="headerTitle">ERIC OLAVESON</div>
           <div className="headerInfo">
-            i design, build, and maintain websites
+            I design, build, and maintain websites
           </div>
           <button className="headerBtn" onClick={this.props.contactHandler}>
             CONTACT ME

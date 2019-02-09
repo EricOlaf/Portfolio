@@ -51,6 +51,7 @@
   align-items: center;
   align-content: stretch;
   padding: 2rem;
+  max-width: 1100px;
   /* background: -webkit-linear-gradient(rgb(74, 97, 124), rgb(42, 40, 41)); */
 }
 
@@ -98,12 +99,13 @@
   padding: 2rem;
   color: rgb(211, 211, 211);
 }
+
 .expTitle {
   text-align: center;
   font-family: "Open Sans";
   font-size: 1.7rem;
   letter-spacing: 4.3px;
-  margin: 3rem;
+  margin-bottom: 3rem;
 }
 .expBoth {
   display: flex;
@@ -138,4 +140,61 @@
 .expTextInfo {
   font-family: "Raleway";
   font-size: 1rem;
+}
+
+@media (max-width: 1200px) {
+  .insideRes {
+    max-width: 700px;
+  }
+}
+
+@media (max-width: 925px) {
+  .insideRes {
+    max-width: 65vw;
+  }
+  .devMtnPic {
+    height: 90px;
+  }
+}
+@media (max-width: 500px) {
+  .techImage {
+    height: 60px;
+    width: 60px;
+  }
+  .techSingle {
+    height: 110px;
+    width: 110px;
+    margin: 5px;
+    font-size: 0.8rem;
+  }
+  .devMtnPic {
+    display: none;
+  }
+  .expTextAll {
+    margin: 0px;
+  }
+  .techTitleAll {
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+    letter-spacing: 2.3px;
+  }
+  .expTitle {
+    font-size: 1.2rem;
+    letter-spacing: 2.3px;
+    margin: 3rem;
+  }
+  .expEachTitle {
+    font-size: 1rem;
+    letter-spacing: 1.8px;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .expTextInfo {
+    font-size: 0.88rem;
+  }
+  .insideRes {
+    max-width: 55vw;
+  }
 }

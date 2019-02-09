@@ -30,3 +30,13 @@ button:focus {
 .App {
   color: #3f3f3f;
 }
+
+@media (max-width: 500px) {
+  button {
+    height: 50px;
+
+    width: 150px;
+    font-size: 0.8rem;
+    letter-spacing: 0.8px;
+  }
+}
