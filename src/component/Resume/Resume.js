@@ -29,7 +29,9 @@ class Resume extends Component {
             />
           </div>
           <div className="techSingle">
-            <div className="">REACT NATIVE</div>
+            <div className="centerMe">
+              <div className="">REACT NATIVE</div>
+            </div>
             <img
               className="techImage reactNative"
               src="https://www.inovex.de/blog/wp-content/uploads/2018/03/react-native.png"

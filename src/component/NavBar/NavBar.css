@@ -1,19 +1,19 @@
 .navbarAll {
   display: flex;
   flex-direction: row;
-  justify-content: start;
+  justify-content: flex-end;
   align-items: center;
   position: fixed;
   z-index: 10;
   width: 100vw;
-  height: 70px;
-  background: rgba(0, 0, 0, 0.6);
+  height: 40px;
+  background: rgba(0, 0, 0, 0.8);
   font-family: "Open Sans";
 }
 .navName {
   color: rgb(211, 211, 211);
   margin: 1em;
-  padding-left: 2rem;
+  padding-right: 2rem;
 }
 .navName:hover {
   cursor: pointer;

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import github from "../../pics";
+import Pdf from "../../Pdf/Resume.pdf";
 
 import "./Contact.css";
 
@@ -21,8 +22,13 @@ class Contact extends Component {
             />
             <div className="contTitle">LET'S WORK TOGETHER</div>
             <div className="contAb">
-              I'm a Full Stack developer with a thirst for knowledge and
-              oportunities to grow.
+              <p>
+                I'm a Full Stack developer with a thirst for knowledge and
+                oportunities to grow.
+              </p>
+              <a className="cv" href={Pdf} target="_blank">
+                Download CV
+              </a>
             </div>
             <button onClick={this.props.contactHandler}>CONTACT ME</button>
           </div>

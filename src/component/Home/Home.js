@@ -4,7 +4,7 @@ import Resume from "../Resume/Resume";
 import AboutMe from "../AboutMe/AboutMe";
 import Contact from "../Contact/Contact";
 import NavBar from "../NavBar/NavBar";
-import Pdf from "../../Pdf/Resume.pdf";
+import ScrollableAnchor from "react-scrollable-anchor";
 
 import "./Home.css";
 
@@ -71,19 +71,22 @@ class Home extends Component {
                     alt=""
                   />
                 </a>
-                <a href={Pdf} target="_blank">
-                  Resume
-                </a>
               </div>
             </div>
           </div>
         </div>
         <NavBar contactHandler={this.contactHandlerOn} />
-        <Header contactHandler={this.contactHandlerOn} />
+
+        <Header id="header" contactHandler={this.contactHandlerOn} />
+
         <div className="homeAll">
           <div className="allSites">
-            <Resume />
-            <div className="sitesTitle">RECENT WORK</div>
+            <ScrollableAnchor id={"skills"}>
+              <Resume />
+            </ScrollableAnchor>
+            <ScrollableAnchor id={"skills"}>
+              <div className="sitesTitle">RECENT WORK</div>
+            </ScrollableAnchor>
             <div className="site">
               <div className="siteExp seone">
                 <div className="siteName">RAW TRAILS</div>

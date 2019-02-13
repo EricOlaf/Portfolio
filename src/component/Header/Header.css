@@ -21,15 +21,22 @@
   margin-top: 30vh;
   width: 70vw;
   color: rgb(211, 211, 211);
+  animation: title 6s;
+  animation-iteration-count: 1;
 }
 
 .headerTitle {
   font-size: 3rem;
   letter-spacing: 3px;
   font-family: "Open Sans";
-  /* background: -webkit-linear-gradient(white, orange);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; */
+}
+@keyframes title {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 .headerInfo {
   font-family: "Raleway";

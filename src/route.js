@@ -9,8 +9,8 @@ import About from "./component/AboutMe/AboutMe";
 export default (
   <Switch>
     <Route exact path="/" component={Home} />
-    <Route path="/projects" component={Projects} />
-    <Route path="/resume" component={Resume} />
-    <Route path="/aboutme" component={About} />
+    <Route path="/projects" component={Home} />
+    <Route path="/resume" component={Home} />
+    <Route path="/aboutme" component={Home} />
   </Switch>
 );

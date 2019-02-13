@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+import { NavHashLink as Link } from "react-router-hash-link";
 
 import "./NavBar.css";
 
@@ -12,21 +12,18 @@ class NavBar extends Component {
     return (
       <div className="navbarAll">
         <div className="navName" onClick={this.props.contactHandler}>
-          ERIC OLAVESON
+          Need a Web Developer?
         </div>
         {/* <div className="navLinks">
-          <Link className="link" to="/">
+          <Link className="link" smooth to="/#header">
             HOME
           </Link>
-          <Link className="link" to="/resume">
+          <Link className="link" to="/#skills">
             SKILLS
           </Link>
-          <Link className="link" to="/aboutme">
+          <Link className="link" to="/#aboutme">
             ABOUT
           </Link>
-          <a className="link" href="#contactMe">
-            CONTACT ME
-          </a>
         </div> */}
       </div>
     );
