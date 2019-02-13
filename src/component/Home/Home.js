@@ -4,6 +4,7 @@ import Resume from "../Resume/Resume";
 import AboutMe from "../AboutMe/AboutMe";
 import Contact from "../Contact/Contact";
 import NavBar from "../NavBar/NavBar";
+import Pdf from "../../Pdf/Resume.pdf";
 
 import "./Home.css";
 
@@ -69,6 +70,9 @@ class Home extends Component {
                     src="https://image.flaticon.com/icons/svg/25/25231.svg"
                     alt=""
                   />
+                </a>
+                <a href={Pdf} target="_blank">
+                  Resume
                 </a>
               </div>
             </div>
