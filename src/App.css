@@ -44,3 +44,6 @@ button:focus {
     letter-spacing: 0.8px;
   }
 }
+
+/* yarn global add serve
+serve -s build */
